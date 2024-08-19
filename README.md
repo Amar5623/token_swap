@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates a DeFi script that builds upon the token swap example from Quest 3. The script interacts with Uniswap V3 to swap USDC for LINK and then deposits the LINK into Aave to start earning interest. The entire process is executed on the Ethereum Sepolia testnet.
+This project demonstrates a DeFi script that interacts with Uniswap V3 to swap USDC for LINK and then deposits the LINK into Aave to start earning interest. The entire process is executed on the Ethereum Sepolia testnet.
 
 ### Features:
 - **Token Swap:** Swaps USDC for LINK using Uniswap V3.
@@ -129,7 +129,9 @@ node index.js
 
 ## Diagram Illustration
 
-Include a diagram in the repository to visualize the token swap and deposit process. This can help users better understand the workflow of the script.
+The below diagram is to visualize the token swap and deposit process, it's the workflow of the script:
+
+![Script Workflow](https://github.com/Amar5623/token_swap/blob/main/workflow_diagram.svg?raw=true)
 
 ## Testing
 
